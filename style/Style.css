@@ -1,0 +1,60 @@
+.container-fluid {
+  background-color: black;
+}
+.offcanvas-body {
+  background-color: rgb(0, 0, 0);
+}
+header {
+  margin-bottom: 0px;
+  background-color: #000000;
+}
+
+.slog1 {
+  text-align: center;
+  font-weight: 700;
+  font-style: var(center);
+}
+.btn btn-success {
+  color: #000000;
+}
+.fash1 {
+  width: 100px;
+  display: inline;
+  width: 100%;
+}
+section {
+  display: inline;
+}
+
+/* Применяем стили к подвалу сайта */
+
+footer {
+  background-color: #000000;
+
+  color: #fff;
+
+  padding: 20px;
+
+  text-align: center;
+
+  font-size: 14px;
+}
+
+/* Устанавливаем стили для ссылок в подвале */
+
+#footer a {
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.55);
+  background-color: transparent;
+  border: var(--bs-border-width) solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
